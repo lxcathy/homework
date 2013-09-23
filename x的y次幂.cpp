@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-double cal(int x,int y)
+double cal(double x,int y)
 {
   if(y==1)
 	{
@@ -12,7 +12,7 @@ double cal(int x,int y)
 
 int main()
 {
- int x,y;
+ double x,int y;
  cout<<"input x:"<<endl;
  cin>>x;
  cout<<"input y:"<<endl;
