@@ -10,8 +10,8 @@ double centigrade(double F)
 int main()
 {
 	double F;
-	cout<<"请输入华氏温度"<<endl;
+	cout<<"Please input the Fahrenheit temperature"<<endl;
 	cin >>F;
-	cout<<"摄氏温度是"<<centigrade(F)<<endl;
+	cout<<"Celsius temperature is"<<centigrade(F)<<endl;
 	return 0;
 }
